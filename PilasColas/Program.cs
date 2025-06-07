@@ -1,4 +1,5 @@
 ﻿using Arreglos;
+
 namespace PilasColas
 {
     internal class Program
@@ -29,14 +30,13 @@ namespace PilasColas
                 System.Console.WriteLine("Eliminando");
                 pila.Eliminar();
                 System.Console.WriteLine(pila.Imprimir());
-                
+
             }
             catch (Exception ex)
             {
                 System.Console.WriteLine(ex.Message);
             }
-
-
+            
         }
     }
 }
